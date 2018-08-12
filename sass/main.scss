@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box{
+	position: absolute;
+	top: calc(50%- 100px);
+	left: calc(50%- 135px);
+	height: 200px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	div{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		display: flex;
+		transform-style: preserve-3d;
+	}
+}
